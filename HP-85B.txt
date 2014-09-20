@@ -7,7 +7,7 @@
 6 ! Adjustments due to the smaller screen size:
 7 ! Shortened turtle, decreased air capacity
 
-8 ! Made turtle into 2 sprites to try to help increase update rate.
+8 ! Made turtle into 2 sprites to try to help increase update rate and prevent hiding of other sprites.
 9 ! HP-85 BASIC has no long variable names, which is crappy.
 10 ! Strings arrays use a wierd SARRAY, SLET, SGET syntax.
 11 ! The CPU freq is approx 600 KHz, thus runs slowly. I tried using
