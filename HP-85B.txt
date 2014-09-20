@@ -184,7 +184,7 @@
 2850 T1=S0 @ A$="-OO)x" @ GOSUB 500 ! dead turtle
 2860 OFF CURSOR
 2900 X=1 @ Y=R-R\3 @ I=T0 @ GOSUB 800 ! turtle start pos
-2905 X=5 @ Y=Y+1 @ GOSUB 800
+2905 X=5 @ Y=Y+1 @ I=T0+1 @ GOSUB 800
 2910 X=1 @ Y=0 @ I=T0 @ GOSUB 850 ! turtle motion
 2915 I=T0+1 @ GOSUB 850
 2920 ON KYBD K,"AZQ" GOSUB 2940
